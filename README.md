@@ -1,3 +1,6 @@
+Created by @ttezel
+https://gist.github.com/ttezel/4138642
+
 #A Collection of NLP notes
 
 ##N-grams
