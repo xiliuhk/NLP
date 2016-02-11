@@ -1,0 +1,17 @@
+I did not collaborate with other individuals.
+I employed outside resources:
+https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
+stevehanov.ca/blog/index.php?id=114
+
+I completed the two bonus task:
+Damerau-Levenshtein
+I kept a 2D array and i1 j1 to record the start of substrings to compare, so we could get global opt instead of summing up local opts. I passed cases like CA - ABC and get the edit distance as 2, but the result seems identical to OSA on raw.txt. 
+
+OSA with a trie
+I built a trie for the dictionary, and a recursive depth first search function which traverses the trie and keeps tracking of previous row, the row before the previous row, and calculate current row. The output is slightly different from output2 because trie arranges each letter at certain positions in alphabetical order while task 2 reads in the dictionary sequentially. The run time is reduced by 75%. 
+
+Time benchmark for each task:
+Task 1 - 1951s
+Task 2 - 2971s
+Task 2 Bonus - 2975s
+Task 3 - 522s
