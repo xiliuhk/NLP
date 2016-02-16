@@ -1,0 +1,13 @@
+I did not collaborate with other individuals.
+I employed outside resources.
+Additional data for bonus task 1: https://github.com/bmccann/party_predictor/tree/master/data
+The list of stopword: http://www.ranks.nl/stopwords
+
+I completed the two bonus task.
+- Bonus 1 with more instances (significantly improved performance on test.txt)
+  Original new data are included in bonus_data
+  Bonus1.py for extract and label each speech
+  newTrain.txt and newTrain2.txt contain both new data and data provided in class
+- Bonus 2 with two experiments
+  Remove stopwords and UNKNOWNWORDS (no improvement)
+  Bigrams instead of tokens (accuracy, precision, and recall are improved to 1.0)
