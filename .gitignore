@@ -18,3 +18,15 @@ languageModel/6]
 *.txt
 
 spellingCorrection/raw_test.txt
+
+*.hmm
+
+*.out
+
+*.tgs
+
+*.pdf
+
+*.png
+
+POSTagger/deliverables/Readme
